@@ -116,11 +116,24 @@
 }
 
 .stretching {
+  background: linear-gradient(
+    90deg,
+    rgba(10, 10, 10, 1) 0%,
+    rgba(27, 29, 38, 1) 20%,
+    rgba(38, 44, 60, 1) 50%,
+    rgba(27, 29, 38, 1) 80%,
+    rgba(10, 10, 10, 1) 100%
+  );
   max-width: 1440px;
   height: 750px;
   margin: 0 auto;
-  background: url("./img/stretching2.png") round;
   position: relative;
+}
+.stretching_img {
+  width: 900px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .stretching_title {
   text-align: right;
@@ -130,8 +143,8 @@
   font-size: 40px;
   font-weight: 900;
   position: absolute;
-  top: 46%;
-  left: 41%;
+  bottom: 55%;
+  right: 61%;
   transform: translate(-50%, -50%);
 }
 .stretching_title::after {
@@ -158,8 +171,8 @@
   font-size: 17px;
   letter-spacing: 1px;
   position: absolute;
-  bottom: 26%;
-  right: 30%;
+  bottom: 12%;
+  right: 50%;
 }
 
 .stretching_text-link {
@@ -182,9 +195,9 @@
   background: linear-gradient(
     90deg,
     rgba(10, 10, 10, 1) 0%,
-    rgba(27, 29, 38, 0.95) 20%,
+    rgba(27, 29, 38, 1) 20%,
     rgba(38, 44, 60, 1) 50%,
-    rgba(27, 29, 38, 0.95) 80%,
+    rgba(27, 29, 38, 1) 80%,
     rgba(10, 10, 10, 1) 100%
   );
   text-align: right;
@@ -299,9 +312,9 @@
   background: linear-gradient(
     90deg,
     rgba(10, 10, 10, 1) 0%,
-    rgba(27, 29, 38, 0.95) 20%,
+    rgba(27, 29, 38, 1) 20%,
     rgba(38, 44, 60, 1) 50%,
-    rgba(27, 29, 38, 0.95) 80%,
+    rgba(27, 29, 38, 1) 80%,
     rgba(10, 10, 10, 1) 100%
   );
   position: relative;
@@ -394,9 +407,9 @@
   background: linear-gradient(
     90deg,
     rgba(10, 10, 10, 1) 0%,
-    rgba(27, 29, 38, 0.95) 20%,
+    rgba(27, 29, 38, 1) 20%,
     rgba(38, 44, 60, 1) 50%,
-    rgba(27, 29, 38, 0.95) 80%,
+    rgba(27, 29, 38, 1) 80%,
     rgba(10, 10, 10, 1) 100%
   );
   position: relative;
@@ -442,9 +455,9 @@
   background: linear-gradient(
     90deg,
     rgba(10, 10, 10, 1) 0%,
-    rgba(27, 29, 38, 0.95) 20%,
+    rgba(27, 29, 38, 1) 20%,
     rgba(38, 44, 60, 1) 50%,
-    rgba(27, 29, 38, 0.95) 80%,
+    rgba(27, 29, 38, 1) 80%,
     rgba(10, 10, 10, 1) 100%
   );
   position: relative;
@@ -546,9 +559,9 @@
   background: linear-gradient(
     90deg,
     rgba(10, 10, 10, 1) 0%,
-    rgba(27, 29, 38, 0.95) 20%,
+    rgba(27, 29, 38, 1) 20%,
     rgba(38, 44, 60, 1) 50%,
-    rgba(27, 29, 38, 0.95) 80%,
+    rgba(27, 29, 38, 1) 80%,
     rgba(10, 10, 10, 1) 100%
   );
   position: relative;
